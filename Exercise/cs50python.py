@@ -30,26 +30,14 @@
 # print(s)
 
 ### Dictionaries
-ages = {"Ashik": 25, "Lamia": 14}
+# ages = {"Ashik": 25, "Lamia": 14}
+# ages["Abir"] = 18 # added later in Dic
+# print(ages)         
 
-ages["Abir"] = 18
+### Function
+def square(x):
+    return x * x
+for i in range(10):
+    print("{} square is {}".format(i, square(i)))
 
-print(ages)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+        
