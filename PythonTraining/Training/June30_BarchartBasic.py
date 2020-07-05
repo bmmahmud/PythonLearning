@@ -4,36 +4,36 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#
-# sales_person = ['Kuddus', 'Rubel', 'Rony', 'Rocky', 'Abir', 'Noyon']
-# sales = [10000, 8000, 9000, 4000, 5000, 20000]
-#
-# total_bar = np.arange(len(sales_person))
-# print(total_bar)
-#
-# color = ['red', 'green', 'yellow', 'blue', 'orange', '#af5800']
-#
-# plt.bar(total_bar, sales, align='center', alpha=.6, color=color) # total_bar = totall bar, sales Bar hight,
-# plt.xticks(total_bar, sales_person)
-# plt.ylabel('Amount')
-# plt.title('Sales Performance')
-#
-# plt.show()
 
-# ------------------------------------------------------------
-#
 sales_person = ['Kuddus', 'Rubel', 'Rony', 'Rocky', 'Abir', 'Noyon']
-performance = [10000, 8000, 9000, 4000, 5000, 20000]
+sales = [10000, 8000, 9000, 4000, 5000, 20000]
 
 total_bar = np.arange(len(sales_person))
-color = ['red', 'green', 'yellow', 'blue', 'orange', 'pink']
+print(total_bar)
 
-plt.barh(total_bar, performance, align='center', alpha=0.9, color=color)
-plt.yticks(total_bar, sales_person)
+color = ['red', 'green', 'yellow', 'blue', 'orange', '#af5800']
+
+plt.bar(total_bar, sales, align='center', alpha=.6, color=color) # total_bar = totall bar, sales Bar hight,
+plt.xticks(total_bar, sales_person)
 plt.ylabel('Amount')
 plt.title('Sales Performance')
 
 plt.show()
+
+# ------------------------------------------------------------
+#
+# sales_person = ['Kuddus', 'Rubel', 'Rony', 'Rocky', 'Abir', 'Noyon']
+# performance = [10000, 8000, 9000, 4000, 5000, 20000]
+#
+# total_bar = np.arange(len(sales_person))
+# color = ['red', 'green', 'yellow', 'blue', 'orange', 'pink']
+#
+# plt.barh(total_bar, performance, align='center', alpha=0.9, color=color)
+# plt.yticks(total_bar, sales_person)
+# plt.ylabel('Amount')
+# plt.title('Sales Performance')
+#
+# plt.show()
 # -------------------------------------------------------------------------------
 # def number_decorator(number):
 #     number = round(number, 1)

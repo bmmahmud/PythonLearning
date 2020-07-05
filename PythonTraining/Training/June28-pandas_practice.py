@@ -19,7 +19,7 @@ import pyodbc as db
 #
 # # Get Data from csv Files ----------
 data = pd.read_csv('F:/PythonProject/Training/sales_data.csv')
-# print(data.head())
+print(data.head())
 
 # print(data.head(4))
 # print(type(data))
@@ -35,11 +35,11 @@ data = pd.read_csv('F:/PythonProject/Training/sales_data.csv')
 
 # print(data.shape) # rows, columns of dataFame
 
-# print(data.AUDTORG)
-# print(data['AUDTORG'])
-print(data.AUDTORG.iloc[0])
-
-## condition
-
-rang= data.loc[(data.AUDTORG == 'RNGSKF')]
-print(rang)
+# # print(data.AUDTORG)
+# # print(data['AUDTORG'])
+# print(data.AUDTORG.iloc[0])
+#
+# ## condition
+#
+# rang= data.loc[(data.AUDTORG == 'RNGSKF')]
+# print(rang)
