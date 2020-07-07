@@ -34,20 +34,22 @@ def numberInComma(number):
 
 # cash = int(outstanding_df['TotalOutStandingOnCash'])
 # credit = int(outstanding_df['TotalOutStandingOnCredit'])
-data = [300,400]
+data = [700,300]
 print(data)
+
+# Center Circle Text
 results = sum(data)
 print(results)
 total ='Total\n'+str(results)
 
-
-colors = ['#ffcd3c', '#3ca59d']
-legend_element = [Patch(facecolor='#ffcd3c', label='A'),
+# Define Color and lengend color
+colors = ['#f08a5d', '#3ca59d']
+legend_element = [Patch(facecolor='#f08a5d', label='A'),
 
                   Patch(facecolor='#3ca59d', label='E')]
 # -------------------------
 
-data_label = [300,400]
+data_label = [700,300]
 print(data_label)
 
 
@@ -58,10 +60,14 @@ ax.text(0,-.1,total,ha='center', fontsize=18, color='#d92027', fontweight='bold'
 plt.setp(percent_value, fontsize=12, color='#120136', fontweight='bold')
 plt.setp(label, fontsize=16, color='#035aa6',fontweight='bold')
 
+# Center Circle and
 centre_circle = plt.Circle((0,0),0.50,fc='white')
 fig1.gca().add_artist(centre_circle)
-plt.title('Product wise  Sales - BM ASHIK', fontsize=16, fontweight='bold', color='#303960')
+
+
+plt.title('chart- D', fontsize=16, fontweight='bold', color='#303960')
 ax.axis('equal')
 plt.legend(handles=legend_element, loc='lower left', fontsize=11)
 plt.tight_layout()
+plt.savefig('figure-D.png')
 plt.show()
