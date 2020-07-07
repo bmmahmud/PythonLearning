@@ -34,7 +34,7 @@ def numberInComma(number):
 
 # cash = int(outstanding_df['TotalOutStandingOnCash'])
 # credit = int(outstanding_df['TotalOutStandingOnCredit'])
-data = [700,300]
+data = [400,600]
 print(data)
 
 # Center Circle Text
@@ -43,13 +43,13 @@ print(results)
 total ='Total\n'+str(results)
 
 # Define Color and lengend color
-colors = ['#f08a5d', '#3ca59d']
-legend_element = [Patch(facecolor='#f08a5d', label='A'),
+colors = ['#ff847c', '#f6cd61']
+legend_element = [Patch(facecolor='#ff847c', label='A'),
 
-                  Patch(facecolor='#3ca59d', label='E')]
+                  Patch(facecolor='#f6cd61', label='E')]
 # -------------------------
 
-data_label = [700,300]
+data_label = [400,600]
 print(data_label)
 
 
@@ -65,9 +65,9 @@ centre_circle = plt.Circle((0,0),0.50,fc='white')
 fig1.gca().add_artist(centre_circle)
 
 
-plt.title('chart- D', fontsize=16, fontweight='bold', color='#303960')
+plt.title('chart- C', fontsize=16, fontweight='bold', color='#303960')
 ax.axis('equal')
 plt.legend(handles=legend_element, loc='lower left', fontsize=11)
 plt.tight_layout()
-plt.savefig('figure-D.png')
+plt.savefig('figure-C.png')
 plt.show()
