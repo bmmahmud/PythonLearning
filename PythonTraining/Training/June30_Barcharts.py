@@ -16,6 +16,7 @@ def thousand_K_number_decorator(number):
 day1_sale = (9000, 5500, 4000, 6500)
 day2_sale = (8500, 6200, 5400, 2000)
 sales_person = ['Kuddus', 'Rubel', 'Rony', 'Rocky']
+
 bar_index = np.arange(len(day2_sale))
 
 # create plot

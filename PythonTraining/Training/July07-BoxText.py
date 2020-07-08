@@ -46,6 +46,8 @@ top = 1
 
 # remove border from the figure
 
+#---------------------------
+
 p = patches.Rectangle(
     (left,bottom),width,height,
     color = '#21bf73'
@@ -64,7 +66,7 @@ ax.text(0.5 * (left + right), 0.3 * (bottom + top), return_p,
         ha = 'center',va = 'center',
         fontsize=24, color='white',
         transform = ax.transAxes)
-
+# Save Images
 plt.savefig('BoxText.png')
 
 plt.show()
