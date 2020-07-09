@@ -1,4 +1,4 @@
-# Assignment - 6
+# TRAINING PYTHON - Donut Chart
 # B.M. ASHIK MAHMUD
 
 import pandas as pd
@@ -45,7 +45,6 @@ total ='Total\n'+str(results)
 # Define Color and lengend color
 colors = ['#ff847c', '#f6cd61']
 legend_element = [Patch(facecolor='#ff847c', label='A'),
-
                   Patch(facecolor='#f6cd61', label='E')]
 # -------------------------
 
