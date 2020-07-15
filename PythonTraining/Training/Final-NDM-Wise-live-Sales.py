@@ -11,11 +11,11 @@ import numpy as np
 
 connection = db.connect(
     'DRIVER={SQL SERVER};'
-    # 'SERVER=137.116.139.217;'
-     'SERVER=10.168.2.241;'
+     'SERVER=137.116.139.217;'
+     # 'SERVER=10.168.2.241;'
     'DATABASE=ARCHIVESKF;'
-    # 'UID=sa;PWD=erp@123'
-    'UID=sa;PWD=erp'
+     'UID=sa;PWD=erp@123'
+    # 'UID=sa;PWD=erp'
     )
 query = """
 SELECT [NDM].[NDMNAME] AS NDM

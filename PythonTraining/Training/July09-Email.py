@@ -14,7 +14,7 @@ bcc = ['', '']
 
 recipient = to + cc + bcc
 
-subject = "Test report "
+subject = "Test Report"
 
 email_server_host = 'mail.transcombd.com'
 port = 25
