@@ -96,7 +96,7 @@ autolabel(bar1)
 
 plt.ylabel('TARGET AND SALES', fontweight="bold")
 plt.xlabel('NDM', fontweight="bold")
-plt.title('NDM WISE MTD SALES', fontweight="bold")
+plt.title('NDM WISE Target Vs SALES', fontweight="bold")
 plt.xticks(bar_index, qqy['NDM'])
 
 ax.legend(labels=(['TARGET AND SALES', 'NDM']), loc='upper center', bbox_to_anchor=(0.5, -0.25),

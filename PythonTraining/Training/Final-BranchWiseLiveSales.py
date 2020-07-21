@@ -68,6 +68,6 @@ autolabel(bar1)
 # plt.bar(bar_index, data['LIVE_SALES'], align='center', alpha=.6, color=color) # total_bar = totall bar, sales Bar hight,
 plt.xticks(bar_index, data['BRANCH'],rotation=90, ha='right')
 plt.ylabel('Sales')
-plt.title('Branches')
+plt.title('Branch Wise Live Sales')
 plt.tight_layout()
 plt.show()
