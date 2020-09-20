@@ -23,3 +23,19 @@ x = 'abcdefgh'
 # # print(myList[4][1])
 # print(myList[4][2][2])
 
+# Dictionary
+d = {
+    'k1':'value',
+    'k2':123
+    }
+# print(d['k2'])    
+mylist = d['k1']
+
+
+
+
+
+
+
+
+
