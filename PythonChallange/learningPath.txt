@@ -1,0 +1,6 @@
+Python Basics To Advance
+--------------------------
+1. Basic 2 Day - 20-21-Sep-2020
+2. Advance Topics 2 Day - OOP
+3. Libraies - Pandas, Matlotlib
+4. Django
